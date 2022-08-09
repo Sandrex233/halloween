@@ -1,0 +1,123 @@
+.hlwn__navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 2rem 6rem;
+}
+
+.hlwn__navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: normal;
+    align-items: center;
+}
+
+.hlwn__navbar-links-category {
+    box-sizing: border-box;
+
+
+    width: 48px;
+    height: 48px;
+    justify-content: flex-start;
+    margin-left: 124px;
+    margin-top: 39px;
+
+    border: 1px solid #EA6623;
+}
+
+.hlwn__navbar-links-category img {
+    margin-left: 8px;
+    margin-top: 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+
+    width: 29px;
+    height: 29px;
+}
+
+.hlwn__navbar-ghost-one {
+    margin-left: 53px;
+    margin-top: 38px;
+}
+
+.hlwn__navbar-links_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+
+    margin-left: 378px;
+    margin-top: 38px;
+    margin-right: 29px;
+
+
+}
+
+.hlwn__navbar-links_container p {
+    margin-left: 38px;
+    margin-right: 32px;
+
+    font-family: var(--font-family-chivo);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    cursor: pointer;
+
+    text-transform: capitalize;
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    gap: 48px;
+
+    color: #FFFFFF;
+}
+
+.hlwn__navbar-signup {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    gap: 10px;
+
+    margin-top: 39px;
+    margin-right: 66px;
+    width: 137px;
+    height: 51px;
+
+    border: 2px solid #EA6623;
+    border-radius: 4px;
+
+    cursor: pointer;
+}
+
+.hlwn__navbar-signup:hover {
+    background-color: #EA6623;
+    color: white;
+}
+
+.hlwn__navbar-signup p {
+    width: 57px;
+    height: 19px;
+
+    font-family: var(--font-family-chivo);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.hlwn__navbar-ghost-two {
+    margin-top: 3px;
+    margin-right: 28px;
+
+    left: 96.25%;
+    right: -1.94%;
+    top: -0.29%;
+    bottom: 91.5%;
+}
