@@ -4,7 +4,7 @@ import Image3 from '../../assets/Image3.png'
 import bat02 from '../../assets/bat02.png';
 import Web02 from '../../assets/Web02.svg';
 import Web03 from '../../assets/Web03.svg';
-
+import blur from '../../assets/blur.png'
 
 
 export {
@@ -14,4 +14,5 @@ export {
     bat02,
     Web02,
     Web03,
+    blur,
 };
